@@ -1,17 +1,24 @@
 body{
     background-color: black;
+    padding-top: 80px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #menu{
     display: inline-block;
     margin: 0;
     padding: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    max-height: 58px;
     background-color: #0C0032;
-    border-bottom: 3px solid #0C0032
+    border-bottom: 3px solid #0C0032;
+    z-index: 9999;
 }
 
 #menu ul{
@@ -20,19 +27,83 @@ body{
     padding: 0;
 }
 
-#menu ul li{
+#menu ul li.menuelem{
     float: right;
-    padding: 30px;
+    padding: 20px;
     border-left: 3px solid #0C0032;
     background-color: #3500D3;
     color: #0C0032;
     font-weight: bold;
+    width: 8%;
+    text-align: center;
+    transition: 0.5s;
 }
 
-#menu ul li:hover{
+#menu ul li.menuelem:hover{
     background-color: #240090;
+    transition: 0.5s;
 }
 
 #menu a{
     text-decoration: none;
+}
+
+#menu img{
+    max-height: 60px;
+}
+
+.purpletextbox{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #190061;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.purpletextbox p{
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;  
+}
+
+.graytextbox{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #282828;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.graytextbox p{
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;  
+}
+
+.titlebox{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #282828;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.9;
 }
