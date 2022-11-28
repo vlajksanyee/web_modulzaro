@@ -34,7 +34,7 @@ body{
     background-color: #3500D3;
     color: #0C0032;
     font-weight: bold;
-    width: 8%;
+    width: 7%;
     text-align: center;
     transition: 0.5s;
 }
@@ -63,7 +63,7 @@ body{
     border-radius: 30px;
     text-align: center;
     font-weight: bold;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .purpletextbox p{
@@ -84,7 +84,7 @@ body{
     border-radius: 30px;
     text-align: center;
     font-weight: bold;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .graytextbox p{
@@ -105,5 +105,5 @@ body{
     border-radius: 30px;
     text-align: center;
     font-weight: bold;
-    opacity: 0.9;
+    opacity: 0.95;
 }
