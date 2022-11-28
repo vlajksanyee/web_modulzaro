@@ -36,12 +36,13 @@ body{
     font-weight: bold;
     width: 7%;
     text-align: center;
-    transition: 0.5s;
+    
+    transition-property: background;
+    transition-duration: 1s;
 }
 
 #menu ul li.menuelem:hover{
     background-color: #240090;
-    transition: 0.5s;
 }
 
 #menu a{
@@ -64,6 +65,14 @@ body{
     text-align: center;
     font-weight: bold;
     opacity: 0.95;
+
+    transition-property: background border-radius;
+    transition-duration: 1s;
+}
+
+.purpletextbox:hover{
+    background-color: #3500D3;
+    border-radius: 10px;
 }
 
 .purpletextbox p{
@@ -85,6 +94,14 @@ body{
     text-align: center;
     font-weight: bold;
     opacity: 0.95;
+
+    transition-property: background border-radius;
+    transition-duration: 1s;
+}
+
+.graytextbox:hover{
+    background-color: black;
+    border-radius: 10px;
 }
 
 .graytextbox p{
@@ -106,4 +123,12 @@ body{
     text-align: center;
     font-weight: bold;
     opacity: 0.95;
+
+    transition-property: background border-radius;
+    transition-duration: 1s;
+}
+
+.titlebox:hover{
+    background-color: black;
+    border-radius: 10px;
 }
