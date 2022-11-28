@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+#menu{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0C0032;
+    border-bottom: 3px solid #0C0032
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    float: right;
+    padding: 30px;
+    border-left: 3px solid #0C0032;
+    background-color: #3500D3;
+    color: #0C0032;
+    font-weight: bold;
+}
+
+#menu ul li:hover{
+    background-color: #240090;
+}
+
+#menu a{
+    text-decoration: none;
+}
